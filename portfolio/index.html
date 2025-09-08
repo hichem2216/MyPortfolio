@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hichem Cherifi</title>
+     <link rel="stylesheet"  href="Css/Style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">Hichem cherifi</h1>
+                <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-container">
+    
+    <!-- LEFT : TEXT -->
+    <div class="hero-content">
+      <h1 class="hero-title">Hi, I'm Cherifi Hichem Abdessamed</h1>
+      <p class="hero-subtitle">
+        Cybersecurity Enthusiast | Network & System Security Specialist | Developer | Master's in Computer Science
+      </p>
+
+      <!-- Quick Highlights -->
+      <div class="highlights">
+        <div><i class="fas fa-code"></i> Developer</div>
+        <div><i class="fas fa-lock"></i> Cybersecurity</div>
+        <div><i class="fas fa-graduation-cap"></i> Master’s in CS</div>
+        <div><i class="fas fa-globe"></i> Open Source</div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">Connect with Me</a>
+        <a href="#projects" class="btn-outline">View My Projects</a>
+        <a href="cv.pdf" class="btn-outline">Download CV</a>
+      </div>
+    </div>
+
+    <!-- RIGHT : SVG Illustration -->
+    <div class="hero-illustration">
+      <!-- Example placeholder, replace with your own SVG -->
+      <img src="img/portf.svg" alt="Cybersecurity Illustration">
+    </div>
+  </div>
+
+  <!-- Scroll down indicator -->
+  <div class="scroll-down">
+    <span>&#x25BC;</span>
+  </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="section-container">
+        <h2>About Me</h2>
+        <div class="about-content">
+        <p>I’m a Master’s graduate in Computer Science, specialized in Networks, Systems, and IT Security from Djilali Liabes University (Sidi Bel Abbès). My passion lies in cybersecurity, system protection, network defense, and cryptography.
+In addition to my cybersecurity background, I’m also a developer. I use programming not just for building applications, but to automate security tasks, write custom scripts, analyze vulnerabilities, and support secure system designs.</p>
+            <div class="image">
+            <img src="img/me.jpg" width="300" height="300">
+        </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="section-container">
+  <h2 class="section-title">My Skills</h2>
+
+  <div class="skills-timeline">
+
+    <!-- Web Development -->
+    <div class="timeline-block">
+      <div class="timeline-icon"><i class="fa-solid fa-globe"></i></div>
+      <div class="timeline-content">
+        <h3>Web Development</h3>
+        <ul class="skill-list">
+          <li><i class="fa-brands fa-html5"></i> HTML, CSS, JS, PHP <span class="level advanced">Advanced</span></li>
+          <li><i class="fa-brands fa-react"></i> React, Django <span class="level intermediate">Intermediate</span></li>
+          <li><i class="fa-solid fa-database"></i> SQL, MySQL <span class="level advanced">Advanced</span></li>
+          <li><i class="fa-brands fa-git-alt"></i> Git, AWS <span class="level intermediate">Intermediate</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Desktop -->
+    <div class="timeline-block">
+      <div class="timeline-icon"><i class="fa-solid fa-laptop-code"></i></div>
+      <div class="timeline-content">
+        <h3>Desktop Applications</h3>
+        <ul class="skill-list">
+          <li><i class="fa-solid fa-code"></i> C, C#, Java, Python <span class="level advanced">Advanced</span></li>
+          <li><i class="fa-solid fa-cubes"></i> .NET, Tkinter <span class="level intermediate">Intermediate</span></li>
+          <li><i class="fa-solid fa-terminal"></i> Visual Studio, VS Code <span class="level advanced">Advanced</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div class="timeline-block">
+      <div class="timeline-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+      <div class="timeline-content">
+        <h3>Mobile Development</h3>
+        <ul class="skill-list">
+          <li><i class="fa-brands fa-flutter"></i> Flutter <span class="level beginner">Beginner</span></li>
+          <li><i class="fa-brands fa-android"></i> Android Studio, VMs <span class="level advanced">Advanced</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Networking -->
+    <div class="timeline-block">
+      <div class="timeline-icon"><i class="fa-solid fa-network-wired"></i></div>
+      <div class="timeline-content">
+        <h3>Networking & Security</h3>
+        <ul class="skill-list">
+          <li><i class="fa-solid fa-globe"></i> TCP/IP, HTTP/HTTPS, DNS <span class="level intermediate">Intermediate</span></li>
+          <li><i class="fa-solid fa-shield-halved"></i> Firewalls, VPNs, Encryption <span class="level intermediate">Intermediate</span></li>
+          <li><i class="fa-solid fa-server"></i> Routers, Switches <span class="level intermediate">Intermediate</span></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i> Wireshark, CLI Tools <span class="level intermediate">Intermediate</span></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="education" class="section-container">
+  <h2 class="section-title">Education</h2>
+
+  <div class="skills-timeline">
+
+    <!-- High School -->
+    <div class="timeline-block">
+      <div class="timeline-icon"><i class="fa-solid fa-school"></i></div>
+      <div class="timeline-content">
+        <h3>High School Diploma</h3>
+        <ul class="edu-list">
+          <li><i class="fa-solid fa-certificate"></i> Scientific Baccalaureate <span class="year">2020</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bachelor -->
+    <div class="timeline-block">
+      <div class="timeline-icon"><i class="fa-solid fa-user-graduate"></i></div>
+      <div class="timeline-content">
+        <h3>Bachelor’s Degree</h3>
+        <ul class="edu-list">
+          <li><i class="fa-solid fa-book-open"></i> computer systems and software engineering — University Djilali Liabes <span class="year">2022</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Master -->
+    <div class="timeline-block">
+      <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+      <div class="timeline-content">
+        <h3>Master’s Degree</h3>
+        <ul class="edu-list">
+          <li><i class="fa-solid fa-laptop-code"></i> Master in Networks, Systems and Computer Security <span class="year">2025</span></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="projects" class="section-container">
+  <h2 class="section-title">Projects</h2>
+
+  <!-- Project 1 -->
+  <div class="project-row">
+    <div class="project-image">
+      <img src="img/cnvd.jpg" alt="Secure Django Web App">
+    </div>
+    <div class="project-content">
+      <h3>Cryptly - Secure chat Web App</h3>
+      <p>Developed a full-stack web application using Django, Python, and JavaScript, with end to end Encryption(PGP-ECC).</p>
+      <a href="#" class="project-link">View Project &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+<div class="project-row">
+  <div class="project-image">
+    <img src="img/pgp.jpg" height="10px"  alt="PGP with ECC Research Project">
+  </div>
+  <div class="project-content">
+    <h3>Research Project: Migrating PGP with ECC</h3>
+    <p>
+      Designed and implemented an open-source solution that replaces RSA with Elliptic Curve Cryptography (ECC) in PGP encryption. 
+      This migration reduces key sizes while maintaining strong security, making PGP more efficient for modern systems. 
+      Published the implementation for the cybersecurity community to adopt and extend.
+    </p>
+    <a href="https://github.com/yourusername/pgp-ecc" class="project-link">View on GitHub &rarr;</a>
+  </div>
+</div>
+
+
+  <!-- Project 3 -->
+  <div class="project-row">
+    <div class="project-image">
+      <img src="img/AWNI.png" alt="PHP E-Commerce Platform">
+    </div>
+    <div class="project-content">
+      <h3>PHP E-Commerce Platform</h3>
+      <p>Created a secure e-commerce platform using PHP, JavaScript, and optimized network configurations.</p>
+      <a href="#" class="project-link">View Project &rarr;</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="section-container">
+  <h2 class="section-title">Contact Me</h2>
+  <p class="contact-subtitle">Let’s connect! Feel free to reach me on any platform below.</p>
+  
+  <div class="contact-grid">
+    <div class="contact-card">
+      <i class="fas fa-envelope"></i>
+      <p>Email</p>
+      <a href="mailto:[hichemocher22@gmail.com]">hichemocher22@gmail.com</a>
+    </div>
+    
+    <div class="contact-card">
+      <i class="fab fa-linkedin"></i>
+      <p>LinkedIn</p>
+      <a href="https://www.linkedin.com/in/hichem-cherifi-5384361bb/" target="_blank">LinkedIn Profile</a>
+    </div>
+    
+    <div class="contact-card">
+      <i class="fab fa-github"></i>
+      <p>GitHub</p>
+      <a href="[GitHub Profile Link]" target="_blank">GitHub Profile</a>
+    </div>
+    
+    <div class="contact-card">
+      <i class="fas fa-phone"></i>
+      <p>Phone</p>
+      <a href="tel:0562308746">+213562308746</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Hichem Abdessamed Cherifi— Built with ❤️ & Code</p>
+</footer>
+
+
+  <script>
+            // Toggle Mobile Menu
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+  hamburger.classList.toggle("active");
+});
+  const projectRows = document.querySelectorAll('.project-row');
+
+  const revealOnScroll = () => {
+    const triggerBottom = window.innerHeight * 0.85; // 85% of viewport height
+    projectRows.forEach((row, index) => {
+      const rect = row.getBoundingClientRect();
+      if (rect.top < triggerBottom) {
+        setTimeout(() => {
+          row.classList.add('show');
+        }, index * 500); 
+      }
+    });
+  };
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
+
+  <script>
+        
+document.addEventListener("DOMContentLoaded", () => {
+  const bars = document.querySelectorAll(".bar span");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const span = entry.target;
+        const finalWidth = span.getAttribute("data-width");
+        gsap.to(span, {
+          width: finalWidth,
+          duration: 1.8,
+          ease: "power3.out",
+          stagger: 0.2
+        });
+        observer.unobserve(span);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  bars.forEach(span => observer.observe(span));
+
+  // Animate timeline blocks
+  gsap.utils.toArray(".timeline-block").forEach((block, i) => {
+    gsap.from(block, {
+      x: i % 2 === 0 ? -100 : 100,
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: block,
+        start: "top 80%",
+      }
+    });
+  });
+});
+
+
+        // GSAP Animations
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Fade in sections
+        document.querySelectorAll('section').forEach(section => {
+            gsap.from(section, {
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: section,
+                    start: 'top 80%',
+                    toggleActions: 'play none none none'
+                }
+            });
+        });
+
+        // Project card animations
+        document.querySelectorAll('.project-card').forEach(card => {
+            gsap.from(card, {
+                opacity: 0,
+                scale: 0.9,
+                duration: 0.8,
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 90%',
+                    toggleActions: 'play none none none'
+                }
+            });
+        });
+
+
+    </script>
+</body>
+</html>
